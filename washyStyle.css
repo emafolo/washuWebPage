@@ -1,0 +1,230 @@
+body {
+  background-color:powderblue;
+}
+.fixedHead{
+  font-family: 'Noto Serif JP', sans-serif;
+  text-align: center;
+  background-color: maroon;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px gray;
+  color:white;
+  width: 100%;
+  position:fixed;
+  margin: -20px;
+}
+.first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 20%;
+    padding: 12px;
+}
+
+#titlePhote{
+  background-color: maroon;
+}
+h1{
+
+}
+h2{
+  padding-top:60px
+  text-transform: uppercase;
+  color: maroon;
+
+}
+
+a {
+    color: green;
+}
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+label{
+  font-weight: bold;
+  font-size: large;
+}
+input[type=text]{
+    color: white;
+    border-radius: 25px;
+    white: 60%;
+}
+input[type=text]:focus {
+    background-color: #3CBC8D;
+    color: white;
+    border-radius: 25px;
+}
+
+.flexContainer{
+  display: flex;
+  justify-content: space-between;
+}
+input[type=date] {
+    background-color: yellow;
+    color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+img{
+  padding: 24px;
+}
+img.loop{
+  width:85%;
+  height:500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.flags{
+  width:85%;
+  height:500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#titlePhoto{
+  /*top:180px;*/
+}
+div#page1 p {
+  top:260px;
+    line-height: 200%;
+
+}
+div#middle {
+    border-style: inset;
+    /*border-color: hsl(89, 43%, 51%);*/
+    padding: 12px;
+}
+div#page1 p span#sp{
+  color: rgb(0,0,255);
+}
+form#inp{
+  background-color: maroon;
+  padding: 8px;
+  padding-top: 8px
+  height: 50%;
+  width: 50%;
+  float: right;
+
+}
+div#inFormDiv{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+}
+p#sp{
+  font-size: large;
+  font-style: italic;
+  text-align: left;
+  color: white;
+}
+.sp1{
+  font-size: large;
+  font-style: italic;
+  text-align: left;
+  color: red;
+  font-weight: bold;
+}
+ol {
+    background: #3399ff;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+ol li {
+    background: #cce5ff;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+/* most of the feature for this unorder list is copied and past from w3school*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.actives {
+    background-color: #4CAF50;
+}
+/*I copied past most of the css for the table bellow from w3school */
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #dddc;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.space{
+  padding:12px;
+  margin:12px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color:#3399ff;
+    border-radius: 12px;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    margin: 1px;
+    cursor: pointer;
+
+}
+
+/*I got this column code from w3school*/
+* {
+    box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <title> WashU</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the new version of wustl.edu">
+  <neta name="author" content="Elie Mafolo">
+  <link rel="stylesheet" href="washyStyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fixedHead">
+      <h1> Washington University In St Louis</h1>
+      <ul>
+        <li><a class="active" href="firstpage.html">Home</a></li>
+        <li><a href="g.html">Current Students</a></li>
+        <li><a href="g.html">Future Students</a></li>
+        <li><a href="g.html">Parents</a></li>
+        <li><a href="g.html">Faculty</a></li>
+      </ul>
+    </div>
+    <div class="space">
+    </div>
+    <div class="space">
+    </div>
+    <div class="space">
+    </div>
+    <div class="space">
+    </div>
+    <div id="page1">
+      <div id="titlePhoto">
+
+        <img src="WashU.jpg" alt="stllouis" class="first">
+      </div>
+
+      <div class="column" style="background-color:#aaa;">
+          <h2>We are Washington University in St. Louis.</h2>
+          <p>
+We are a community where you can be an individual and achieve
+ exceptional things. We are committed to learning and exploration,
+ to discovery and impact.</p>
+      </div>
+      <div class="column">
+          <h2>We are driven to meet the world’s challenges.</h2>
+          <p>
+Washington University is a place where you can push the boundaries
+ of what it means to learn. We are enriched by wide-ranging exploration
+  and inspired by big ideas as we create new knowledge for an ever-changing world.</p>
+      </div>
+
+    <!--
+  This form is for input of where someone want to visit saint louis
+    -->
+    <hr>
+    <div id="middle" class="flexContainer">
+      <div id="flexHere">
+        <h2>Important Link for Current Students</h2>
+        <ol>
+          <li><a href="b.html">BlackBoard</a></li>
+          <li><a href="c.html">My Canvas</a></li>
+          <li><a href="e.html">WashU Email</a></li>
+          <li><a href="w.html">Webstack</a></li>
+          <li><a href="e.html">Career Center</a></li>
+          <li><a href="w.html">First Year</a></li>
+        </ol>
+      </div>
+        <form id="inp">
+            <p id="sp">Want to Visit WashU? Fill Up This Form</p>
+            <div id="inFormDiv" >
+              <div>
+                <label for="fristname">First Name</label>
+                <input type="text" name="firstname" >
+              </div>
+              <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname">
+              </div>
+              <div>
+                <label for="email">email</label>
+                <input type="text" name="email">
+              </div>
+              <div>
+                <label for="date">Pick A Date to Visit</label>
+                <input type="date" id="date">
+              </div>
+              <input type="submit" value="Submit">
+            </div>
+
+        </form>
+  <!--
+list of all activities here in St Louis
+  -->
+
+  </div>
+  <!--
+I copied the script and the html map below from w3school
+  -->
+  <div>
+      <hr>
+      <h2>Here is where Washington University Is Located</h2>
+      <div id="map" style="width:100%;height:400px;background:yellow"></div>
+      <script>
+      function myMap() {
+        var mapOptions = {
+        center: new google.maps.LatLng(38.627003,-90.199402),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRR4stGfb-tXc8datshADQusp7RVTcjpc&callback=myMap"></script>
+
+  </div>
+</div>
+</body>
+</html>
