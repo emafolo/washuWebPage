@@ -419,4 +419,7 @@ img.photoD{
     length: 400px;
     background-color: lightgray;
   }
+  ul {
+    display:none;
+  }
 }
