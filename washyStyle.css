@@ -399,3 +399,24 @@ img.photoD{
 .last1 p: hover{
   color: maroon;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .last1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .photoDown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    length: 400px;
+    background-color: lightgray;
+  }
+}
