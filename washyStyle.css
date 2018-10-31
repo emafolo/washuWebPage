@@ -1,5 +1,5 @@
 body {
-  background-color:powderblue;
+  background-color:#fafafa;
 }
 .fixedHead{
   font-family: 'Noto Serif JP', sans-serif;
@@ -17,7 +17,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
     height: 20%;
     padding: 12px;
 }
@@ -49,12 +49,12 @@ label{
 input[type=text]{
     color: white;
     border-radius: 25px;
-    white: 60%;
+    width: 100%;
 }
 input[type=text]:focus {
-    background-color: #3CBC8D;
+    background-color: #aaa;
     color: white;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .flexContainer{
@@ -62,9 +62,8 @@ input[type=text]:focus {
   justify-content: space-between;
 }
 input[type=date] {
-    background-color: yellow;
     color: black;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
@@ -113,11 +112,15 @@ form#inp{
 
 }
 div#inFormDiv{
-  text-align: left;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  height: 50%;
   width: 50%;
+
+  padding: 12px;
+  border-radius: 20px;
+
+
 }
 p#sp{
   font-size: large;
@@ -129,11 +132,11 @@ p#sp{
   font-size: large;
   font-style: italic;
   text-align: left;
-  color: red;
+  color: maroon;
   font-weight: bold;
 }
 ol {
-    background: #3399ff;
+    background: #333;
     padding: 20px;
     text-align: center;
     list-style-type: none;
@@ -170,7 +173,7 @@ ul li a:hover:not(.active) {
 }
 
 .actives {
-    background-color: #4CAF50;
+    background-color: ##aaa;
 }
 /*I copied past most of the css for the table bellow from w3school */
 #table {
@@ -200,13 +203,15 @@ ul li a:hover:not(.active) {
   margin:12px;
 }
 input[type=button], input[type=submit], input[type=reset] {
-    background-color:#3399ff;
+    background-color:#333;
     border-radius: 12px;
     color: white;
-    padding: 16px;
+    padding: 5px;
+    width: 100%;
     text-decoration: none;
     margin: 1px;
     cursor: pointer;
+    margin-top: 12px;
 
 }
 
@@ -228,3 +233,36 @@ input[type=button], input[type=submit], input[type=reset] {
     display: table;
     clear: both;
 }
+#map{
+  width:40%;
+  length: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#photoDown {
+  display: flex;
+  length: 400px;
+  background-color: lightgray;
+}
+/*
+#photoDown .photoD{
+    width:100px;
+    height:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+#photoDown div:nth-of-type(1) {
+  flex-grow: 1;
+}
+#photoDown div:nth-of-type(2) {
+  flex-grow: 4;
+}
+#photoDown div:nth-of-type(3) {
+  flex-grow: 1;
+}
+#photoDown div:nth-of-type(4) {
+  flex-grow: 1;
+}*/
